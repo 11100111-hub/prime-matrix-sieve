@@ -32,6 +32,36 @@ Each orange cell ($O$) is surrounded centrally by a pattern of key positions (gr
 
 ---
 
+## 🎯 The Magic "+84 Rule" for Multiples of 7
+
+While the green cells contain potential primes, they also contain composite numbers that are multiples of 7. This matrix features a fixed equation that **perfectly predicts the exact relative positions of the multiples of 7**:
+
+$$\text{Predictive Equation: } O_{Current} + 84 = O_{Target}$$
+
+Adding **$+84$** shifts the entire system to a new motion center where the multiples of 7 reappear in the **exact same relative geometric alignment** within their new local neighborhood.
+
+### 🧪 Proof and Examples of the +84 Rule
+
+#### 1️⃣ Example 1: Shift from Center $O = 18$
+At Center **18**:
+* The number below it is $18 + 10 = \mathbf{28}$ *(Multiple of 7: $7 \times 4$)*.
+* The number at the top position is $18 - 11 = \mathbf{7}$ *(Multiple of 7: $7 \times 1$)*.
+
+Applying the formula: $18 + 84 = \mathbf{102}$ (New Target Center).
+At Center **102**:
+* The number below it is $102 + 10 = \mathbf{112}$ *(Multiple of 7: $7 \times 16$)* $\rightarrow$ *Same relative position as 28!*
+* The number at the top position is $102 - 11 = \mathbf{91}$ *(Multiple of 7: $7 \times 13$)* $\rightarrow$ *Same relative position as 7!*
+
+#### 2️⃣ Example 2: Shift from Center $O = 48$
+At Center **48**:
+* The number at the Left position is $48 + 1 = \mathbf{49}$ *(Multiple of 7: $7 \times 7$)*.
+
+Applying the formula: $48 + 84 = \mathbf{132}$ (New Target Center).
+At Center **132**:
+* The number at the Left position is $132 + 1 = \mathbf{133}$ *(Multiple of 7: $7 \times 19$)* $\rightarrow$ *Same relative position as 49!*
+
+---
+
 ## 🧪 Proof and Examples From the Matrix
 
 ### 🔹 Verifying Horizontal Stepping ($\pm 6$)
