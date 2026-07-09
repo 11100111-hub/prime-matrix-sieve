@@ -30,6 +30,26 @@ Each orange cell ($O$) is surrounded centrally by a pattern of key positions (gr
 
 > **Note:** The only prime numbers that do not fit into this surrounding rotation are the foundational primes in the first row: `2`, `3`, and `5`.
 
+## 🧪 Proof and Examples From the Matrix
+
+### 🔹 Verifying Horizontal Stepping ($\pm 6$)
+* **Row 2:** Start at Right Center ($\mathbf{12}$). Move left: $12 + 6 = \mathbf{18}$ (Left Center).
+* **Row 5:** Start at Right Center ($\mathbf{42}$). Move left: $42 + 6 = \mathbf{48}$ (Left Center).
+* **Reverse:** Start at Left Center ($\mathbf{78}$). Move right: $78 - 6 = \mathbf{72}$ (Right Center).
+
+### 🔹 Verifying Vertical Stepping ($+ 30$)
+* From Center $\mathbf{12}$ to the center below it: $12 + 30 = \mathbf{42}$.
+* From Center $\mathbf{42}$ to the center below it: $42 + 30 = \mathbf{72}$.
+* From Center $\mathbf{18}$ to the center below it: $18 + 30 = \mathbf{48}$.
+* From Center $\mathbf{48}$ to the center below it: $48 + 30 = \mathbf{78}$.
+
+### 🔹 Verifying the Surrounding Rotations
+* **Around Center $O = 12$:**
+  * Top: $12 - 11 = 1$ | Right: $12 - 1 = 11$ | Left: $12 + 1 = 13$ | Bottom: $12 + 11 = 23$
+* **Around Center $O = 78$:**
+  * Top: $78 - 11 = 67$ | Right: $78 - 1 = 77$ | Left: $78 + 1 = 79$ | Bottom: $78 + 11 = 89$
+
+---
 ---
 
 ## 🎯 The Magic "+84 Rule" for Multiples of 7
@@ -73,27 +93,6 @@ Because the grid has a fixed width of 9, all numbers divisible by 3 fall strictl
 * **Rule:** Multiples of 3, 6, and 9 **never intersect or enter the green prime zones**. This geometric separation automatically filters out 33.3% of all composite numbers from your search area.
 
 ![Prime Matrix Grid](Images/LineNum3.jpeg)
-
----
-
-## 🧪 Proof and Examples From the Matrix
-
-### 🔹 Verifying Horizontal Stepping ($\pm 6$)
-* **Row 2:** Start at Right Center ($\mathbf{12}$). Move left: $12 + 6 = \mathbf{18}$ (Left Center).
-* **Row 5:** Start at Right Center ($\mathbf{42}$). Move left: $42 + 6 = \mathbf{48}$ (Left Center).
-* **Reverse:** Start at Left Center ($\mathbf{78}$). Move right: $78 - 6 = \mathbf{72}$ (Right Center).
-
-### 🔹 Verifying Vertical Stepping ($+ 30$)
-* From Center $\mathbf{12}$ to the center below it: $12 + 30 = \mathbf{42}$.
-* From Center $\mathbf{42}$ to the center below it: $42 + 30 = \mathbf{72}$.
-* From Center $\mathbf{18}$ to the center below it: $18 + 30 = \mathbf{48}$.
-* From Center $\mathbf{48}$ to the center below it: $48 + 30 = \mathbf{78}$.
-
-### 🔹 Verifying the Surrounding Rotations
-* **Around Center $O = 12$:**
-  * Top: $12 - 11 = 1$ | Right: $12 - 1 = 11$ | Left: $12 + 1 = 13$ | Bottom: $12 + 11 = 23$
-* **Around Center $O = 78$:**
-  * Top: $78 - 11 = 67$ | Right: $78 - 1 = 77$ | Left: $78 + 1 = 79$ | Bottom: $78 + 11 = 89$
 
 ---
 
