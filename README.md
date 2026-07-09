@@ -97,11 +97,12 @@ Because the grid has a fixed width of 9, all numbers divisible by 3 fall strictl
 
 ---
 
-## 🧠 Mathematical Explanation
+## 🧠 Comprehensive Mathematical Explanation
 
-The structure of this 9-column grid perfectly maps the properties of modular arithmetic. The vertical step of **$+30$** represents the primorial $\mathbf{2 \times 3 \times 5 = 30}$. By cycling every 30 numbers, the grid automatically filters out all multiples of 2, 3, and 5. 
-
-Combined with the horizontal shifts ($\pm 6$), this layout flawlessly aligns the remaining potential prime candidates into the green columns, leaving the white areas strictly populated by composite numbers.
+The structure of this 9-column grid perfectly maps the properties of modular arithmetic:
+1. **Mod 9 Base:** By setting the grid width to 9, multiples of 3, 6, and 9 align perfectly into vertical columns, preventing them from ever touching the green zones.
+2. **The $+30$ Primorial:** The vertical step of **$+30$** represents $\mathbf{2 \times 3 \times 5 = 30}$, automatically filtering out remaining multiples of 2 and 5 from the green lines.
+3. **The $+84$ Periodicity:** The predictive factor of $84$ works flawlessly because $84 \equiv 0 \pmod 7$ and $84 \equiv 0 \pmod 6$. This preserves the relative modular residue of any surrounding cell when shifting by 84, providing an exact visual radar for where multiples of 7 will terminate potential prime lines.
 
 ## 🚀 How to Contribute?
 Feel free to open an `Issue` or submit a `Pull Request` if you write a script (Python / JavaScript) that generates this matrix dynamically for numbers greater than 100.
