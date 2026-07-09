@@ -8,7 +8,7 @@ When numbers are arranged in a grid with 9 columns (ordered sequentially from ri
 
 All prime numbers (with the exception of the three initial anomalous primes: `2`, `3`, and `5`) are guaranteed to fall exclusively within the **green cells** surrounding these orange centers. It is mathematically impossible for any other prime number to appear in the white cells.
 
----
+![Prime Matrix Grid](primes.jpeg)
 
 ## 📐 Mathematical Rule of the Centers (Orange Cells)
 
