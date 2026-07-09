@@ -62,6 +62,16 @@ At Center **132**:
 
 ---
 
+## 🚫 Absolute Exclusion of Multiples of 3, 6, and 9
+
+One of the most powerful structural features of this 9-column layout is that **multiples of 3, 6, and 9 can be completely ignored** when looking for primes. 
+
+Because the grid has a fixed width of 9, all numbers divisible by 3 fall strictly into dedicated vertical channels (the columns containing 3, 6, and 9 at the top row). 
+* These channels are colored white or light blue.
+* **Rule:** Multiples of 3, 6, and 9 **never intersect or enter the green prime zones**. This geometric separation automatically filters out 33.3% of all composite numbers from your search area.
+
+---
+
 ## 🧪 Proof and Examples From the Matrix
 
 ### 🔹 Verifying Horizontal Stepping ($\pm 6$)
