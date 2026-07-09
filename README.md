@@ -34,6 +34,8 @@ Each orange cell ($O$) is surrounded centrally by a pattern of key positions (gr
 
 ## 🎯 The Magic "+84 Rule" for Multiples of 7
 
+![Prime Matrix Grid](Images/RuleNum7.jpg)
+
 While the green cells contain potential primes, they also contain composite numbers that are multiples of 7. This matrix features a fixed equation that **perfectly predicts the exact relative positions of the multiples of 7**:
 
 $$\text{Predictive Equation: } O_{Current} + 84 = O_{Target}$$
