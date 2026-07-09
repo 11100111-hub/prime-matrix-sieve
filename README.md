@@ -70,6 +70,8 @@ Because the grid has a fixed width of 9, all numbers divisible by 3 fall strictl
 * These channels are colored white or light blue.
 * **Rule:** Multiples of 3, 6, and 9 **never intersect or enter the green prime zones**. This geometric separation automatically filters out 33.3% of all composite numbers from your search area.
 
+![Prime Matrix Grid](Images/LineNum3.jpeg)
+
 ---
 
 ## 🧪 Proof and Examples From the Matrix
